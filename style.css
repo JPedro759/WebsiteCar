@@ -440,6 +440,10 @@ header {
   align-items: center;
 }
 
+.copyright p {
+  font-size: 13px;
+}
+
 .social a {
   color: #444;
   padding: 10px;
@@ -546,7 +550,7 @@ header {
 @media (max-width: 568px) {
   .copyright {
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1rem;
   }
 }
 
